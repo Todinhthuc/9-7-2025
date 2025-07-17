@@ -17,8 +17,9 @@ age= int(input("Enter a number: "))
 height== int(input("Enter a number(cm): "))
 if age>15:
     print("price= 50$")
-if height>120:
-    print("price= 25$")
+if age<15:    
+    if height>120:
+        print("price= 25$")
 else:
     print("price= free")
 print("task 4")
